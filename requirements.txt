@@ -3,3 +3,4 @@ bson==0.5.10
 numpy==1.24.1
 openai==0.25.0
 pymongo==4.3.3
+gunicorn==20.0.4
