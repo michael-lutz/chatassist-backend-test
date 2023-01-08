@@ -49,3 +49,6 @@ curl -d '{"question":"hello can you help me sign in?","conversation_id":"63b61a0
 
 Returns:
 {"message": " Absolutely! To sign in to the Playground app, download either the iPhone or Android app and enter your login credentials. If you get an error, double check that the email is correctly formatted and that the password is correct. If you forgot your password, check our guide on resetting it.", "id": "63b61a0f61724f40bf230164"}
+
+## Deploying
+Should deploy automatically whenever anything is changed. If deployment consistently fails because of gunicorn, check to see if gunicorn is installed. In the CLI, check "which gunicorn"
