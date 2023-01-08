@@ -72,3 +72,6 @@ def generate_response_handler():
     res_body = json.dumps(d)
     # stringify the json
     return res_body, 200
+
+if __name__ == '__main__':
+    app.run(debug=True, port=os.getenv("PORT", default=5000))
